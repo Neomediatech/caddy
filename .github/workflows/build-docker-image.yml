@@ -24,6 +24,7 @@ jobs:
       dockertag: "latest"
 
   build-and-scan-extra:
+    needs: [push-report-to-repo]
     secrets: inherit
     uses: Neomediatech/gh-workflows/.github/workflows/build-and-scan-docker-image.yml@main
     with:
