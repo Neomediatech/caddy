@@ -1,0 +1,28 @@
+version: "3.7"
+  
+networks:
+    caddy-public:
+        driver: overlay
+        name: caddy-public
+    caddy-internal:
+        external: false
+        driver: overlay
+        name: caddy-internal
+
+services:
+    caddy:
+        #image: caddy:2-alpine
+        image: neomediatech/caddy
+        restart: unless-stopped
+        ports:
+            - "10080:80"
+            - "10443:443"
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /srv/data/docker/containers/caddy/etc:/etc/caddy
+            - /srv/data/docker/containers/caddy/data:/data
+            - /srv/data/docker/containers/caddy/config:/config
+        networks:
+            - caddy-public
+            - caddy-internal
+
