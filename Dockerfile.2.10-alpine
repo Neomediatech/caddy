@@ -1,11 +1,11 @@
-ARG CADDY_VERSION=latest
-FROM caddy:builder AS builder
+ARG CADDY_VERSION=2.10
+FROM caddy:${CADDY_VERSION}-builder AS builder
 
 RUN xcaddy build \
-    --with github.com/lucaslorentz/caddy-docker-proxy/v2 \
+    --with github.com/lucaslorentz/caddy-docker-proxy/v2@v2.10.0 \
     --with github.com/caddyserver/transform-encoder
 
-FROM caddy:${CADDY_VERSION}
+FROM caddy:${CADDY_VERSION}-alpine
 
 ENV TZ=Europe/Rome
 
