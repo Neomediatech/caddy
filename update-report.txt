@@ -14,3 +14,4 @@ lun 7 lug 2025, 20:10:46, CEST --- ghcr.io/neomediatech/caddy:2.8-extra UPDATED
 lun 7 lug 2025, 20:12:14, CEST --- ghcr.io/neomediatech/caddy:2.9-extra UPDATED
 lun 7 lug 2025, 20:21:32, CEST --- ghcr.io/neomediatech/caddy:2.10-extra UPDATED
 lun 7 lug 2025, 20:22:13, CEST --- ghcr.io/neomediatech/caddy:2.8-extra UPDATED
+lun 7 lug 2025, 20:22:53, CEST --- ghcr.io/neomediatech/caddy:2.9-extra UPDATED
