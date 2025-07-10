@@ -1,7 +1,1 @@
-mer 9 lug 2025, 18:44:31, CEST --- ghcr.io/neomediatech/caddy:2.10-alpine not-needed (image build needed: false)
-mer 9 lug 2025, 18:48:07, CEST --- ghcr.io/neomediatech/caddy:2.10-extra UPDATED (image build needed: true)
-mer 9 lug 2025, 18:48:26, CEST --- ghcr.io/neomediatech/caddy:2.8-alpine not-needed (image build needed: false)
-mer 9 lug 2025, 18:48:55, CEST --- ghcr.io/neomediatech/caddy:2.8-extra UPDATED (image build needed: true)
-mer 9 lug 2025, 18:49:15, CEST --- ghcr.io/neomediatech/caddy:2.9-alpine not-needed (image build needed: false)
-mer 9 lug 2025, 18:49:37, CEST --- ghcr.io/neomediatech/caddy:2.9-extra UPDATED (image build needed: true)
-mer 9 lug 2025, 18:49:57, CEST --- ghcr.io/neomediatech/caddy:latest not-needed (image build needed: false)
+gio 10 lug 2025, 11:53:00, CEST --- ghcr.io/neomediatech/caddy:2.10-alpine not-needed (image build needed: false)
