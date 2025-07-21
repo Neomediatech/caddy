@@ -30,3 +30,19 @@ Legend:
 - '-': Not scanned
 - '0': Clean (no security findings detected)
 
+-----------------------------------
+lun 21 lug 2025, 13:42:29, CEST --- ghcr.io/neomediatech/caddy:2.9-alpine
+
+Report Summary
+
+┌───────────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┐
+│                        Target                         │   Type   │ Vulnerabilities │ Secrets │
+├───────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┤
+│ ghcr.io/neomediatech/caddy:2.9-alpine (alpine 3.20.6) │  alpine  │        0        │    -    │
+├───────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┤
+│ usr/bin/caddy                                         │ gobinary │        0        │    -    │
+└───────────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
