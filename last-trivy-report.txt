@@ -6,3 +6,5 @@ lun 21 lug 2025, 20:55:07, CEST --- ghcr.io/neomediatech/caddy:2.9-extra NOT SCA
 lun 21 lug 2025, 20:55:29, CEST --- ghcr.io/neomediatech/caddy:2.9 NOT SCANNED
 -----------------------------------
 lun 21 lug 2025, 20:55:51, CEST --- ghcr.io/neomediatech/caddy:2.8-extra NOT SCANNED
+-----------------------------------
+lun 21 lug 2025, 20:56:14, CEST --- ghcr.io/neomediatech/caddy:2.8 NOT SCANNED
