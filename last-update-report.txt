@@ -1,1 +1,2 @@
 lun 21 lug 2025, 13:35:12, CEST --- ghcr.io/neomediatech/caddy:latest UPDATED (image build needed: true)
+lun 21 lug 2025, 13:39:43, CEST --- ghcr.io/neomediatech/caddy:2.9-extra UPDATED (image build needed: true)
