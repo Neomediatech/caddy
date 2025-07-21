@@ -89,3 +89,5 @@ Legend:
 - '-': Not scanned
 - '0': Clean (no security findings detected)
 
+-----------------------------------
+lun 21 lug 2025, 20:52:58, CEST --- ghcr.io/neomediatech/caddy:2.10 NOT SCANNED
