@@ -1,0 +1,6 @@
+ven 15 ago 2025, 16:16:08, UTC --- ghcr.io/neomediatech/caddy:2.8 done (image build needed: true)
+ven 15 ago 2025, 16:16:17, UTC --- ghcr.io/neomediatech/caddy:2.8-extra done (image build needed: true)
+ven 15 ago 2025, 16:18:26, UTC --- ghcr.io/neomediatech/caddy:2.10 done (image build needed: true)
+ven 15 ago 2025, 16:18:26, UTC --- ghcr.io/neomediatech/caddy:2.9 done (image build needed: true)
+ven 15 ago 2025, 16:18:26, UTC --- ghcr.io/neomediatech/caddy:latest done (image build needed: true)
+ven 15 ago 2025, 16:18:28, UTC --- ghcr.io/neomediatech/caddy:2.10-extra done (image build needed: true)
