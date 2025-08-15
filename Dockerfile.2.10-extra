@@ -9,7 +9,11 @@ RUN xcaddy build \
 
 FROM caddy:${CADDY_VERSION}-alpine
 
-ENV TZ=Europe/Rome
+ENV SERVICE=caddy \
+    TZ=Europe/Rome
+
+LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
+      org.opencontainers.package.name=caddy:${CADDY_VERSION}
 
 RUN apk add --no-cache tzdata
 
