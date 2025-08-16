@@ -28,6 +28,8 @@ jobs:
       package-name: neomediatech/caddy
       derived-image-prefix: ghcr.io/neomediatech/caddy
       force-build: "${{ github.event.inputs.force-build }}"
+      package-to-check: "CADDY_VERSION"
+      image-type: "meta"
     secrets:
       NOTIFY_CMD: ${{ secrets.NOTIFY_CMD }}
       NOTIFY_UP: ${{ secrets.NOTIFY_UP }}
