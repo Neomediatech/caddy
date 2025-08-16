@@ -13,7 +13,7 @@ ENV SERVICE=caddy \
     TZ=Europe/Rome
 
 LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
-      org.opencontainers.package.name=caddy:${CADDY_VERSION}
+      org.opencontainers.package.name=caddy
 
 RUN apk add --no-cache tzdata
 
