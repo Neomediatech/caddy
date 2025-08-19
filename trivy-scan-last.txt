@@ -1,4 +1,4 @@
-ven 15 ago 2025, 16:18:50, UTC --- ghcr.io/neomediatech/caddy:2.10-extra
+mar 19 ago 2025, 10:54:26, UTC --- ghcr.io/neomediatech/caddy:2.10-extra
 
 Report Summary
 
@@ -14,7 +14,7 @@ Legend:
 - '0': Clean (no security findings detected)
 
 -------------------------------------------------------
-ven 15 ago 2025, 16:18:49, UTC --- ghcr.io/neomediatech/caddy:2.10
+mar 19 ago 2025, 10:54:48, UTC --- ghcr.io/neomediatech/caddy:2.10
 
 Report Summary
 
@@ -30,7 +30,7 @@ Legend:
 - '0': Clean (no security findings detected)
 
 -------------------------------------------------------
-ven 15 ago 2025, 16:16:37, UTC --- ghcr.io/neomediatech/caddy:2.8-extra
+mar 19 ago 2025, 10:54:49, UTC --- ghcr.io/neomediatech/caddy:2.8-extra
 
 Report Summary
 
@@ -86,7 +86,7 @@ Total: 2 (HIGH: 2, CRITICAL: 0)
 │         │                │          │        │                   │                 │ https://avd.aquasec.com/nvd/cve-2025-47907           │
 └─────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────┴──────────────────────────────────────────────────────┘
 -------------------------------------------------------
-ven 15 ago 2025, 16:16:30, UTC --- ghcr.io/neomediatech/caddy:2.8
+mar 19 ago 2025, 10:54:47, UTC --- ghcr.io/neomediatech/caddy:2.8
 
 Report Summary
 
@@ -142,7 +142,7 @@ Total: 2 (HIGH: 2, CRITICAL: 0)
 │         │                │          │        │                   │                 │ https://avd.aquasec.com/nvd/cve-2025-47907           │
 └─────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────┴──────────────────────────────────────────────────────┘
 -------------------------------------------------------
-ven 15 ago 2025, 16:18:57, UTC --- ghcr.io/neomediatech/caddy:2.9
+mar 19 ago 2025, 10:54:49, UTC --- ghcr.io/neomediatech/caddy:2.9
 
 Report Summary
 
@@ -178,7 +178,7 @@ Total: 1 (HIGH: 1, CRITICAL: 0)
 │         │                │          │        │                   │                 │ https://avd.aquasec.com/nvd/cve-2025-47907 │
 └─────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────┴────────────────────────────────────────────┘
 -------------------------------------------------------
-ven 15 ago 2025, 16:18:54, UTC --- ghcr.io/neomediatech/caddy:latest
+mar 19 ago 2025, 10:54:31, UTC --- ghcr.io/neomediatech/caddy:latest
 
 Report Summary
 
