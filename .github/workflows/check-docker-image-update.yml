@@ -24,9 +24,6 @@ jobs:
   build-image:
     uses: Neomediatech/gh-workflows/.github/workflows/build-docker-image-bulk.yml@main
     with:
-      base-image: caddy
-      package-name: neomediatech/caddy
-      derived-image-prefix: ghcr.io/neomediatech/caddy
       force-build: "${{ github.event.inputs.force-build }}"
       package-to-check: "CADDY_VERSION"
       image-type: "meta"
