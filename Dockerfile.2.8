@@ -2,7 +2,8 @@ ARG CADDY_VERSION=2.8
 FROM caddy:${CADDY_VERSION}
 
 ENV SERVICE=caddy \
-    TZ=Europe/Rome
+    TZ=Europe/Rome \
+    it.neomediatech.app-label=meta
 
 LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
       org.opencontainers.package.name=caddy
