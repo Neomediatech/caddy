@@ -5,7 +5,8 @@ ENV SERVICE=caddy \
     TZ=Europe/Rome
 
 LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
-      org.opencontainers.package.name=caddy
+      org.opencontainers.package.name=caddy \
+      it.neomediatech.app-label=meta
 
 RUN apk add --no-cache tzdata && \
     caddy add-package github.com/caddyserver/transform-encoder \

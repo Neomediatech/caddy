@@ -8,11 +8,11 @@ RUN xcaddy build \
 FROM caddy:${CADDY_VERSION}
 
 ENV SERVICE=caddy \
-    TZ=Europe/Rome \
-    it.neomediatech.app-label=meta
+    TZ=Europe/Rome
 
 LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
-      org.opencontainers.package.name=caddy
+      org.opencontainers.package.name=caddy \
+      it.neomediatech.app-label=meta
 
 RUN apk add --no-cache tzdata
 
