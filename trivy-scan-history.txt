@@ -586,3 +586,119 @@ Legend:
 - '0': Clean (no security findings detected)
 
 -------------------------------------------------------
+lun 9 feb 2026, 11:54:47, CET --- ghcr.io/neomediatech/caddy:2.10-extra
+
+Report Summary
+
+┌───────────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                        Target                         │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├───────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:2.10-extra (alpine 3.22.3) │  alpine  │        0        │    -    │         -         │
+├───────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                         │ gobinary │        1        │    -    │         -         │
+└───────────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.69/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+usr/bin/caddy (gobinary)
+========================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+┌───────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────────┐
+│          Library          │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                           Title                            │
+├───────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/slackhq/nebula │ CVE-2026-25793 │ HIGH     │ fixed  │ v1.9.7            │ 1.10.3        │ Blocklist Bypass possible via ECDSA Signature Malleability │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-25793                 │
+└───────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
+lun 9 feb 2026, 11:54:47, CET --- ghcr.io/neomediatech/caddy:2.10
+
+Report Summary
+
+┌─────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                     Target                      │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├─────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:2.10 (alpine 3.22.3) │  alpine  │        0        │    -    │         -         │
+├─────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                   │ gobinary │        2        │    -    │         -         │
+└─────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.69/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+usr/bin/caddy (gobinary)
+========================
+Total: 2 (HIGH: 2, CRITICAL: 0)
+
+┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬────────────────┬────────────────────────────────────────────────────────────┐
+│          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version  │                           Title                            │
+├────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/quic-go/quic-go │ CVE-2025-59530 │ HIGH     │ fixed  │ v0.54.0           │ 0.49.1, 0.54.1 │ github.com/quic-go/quic-go: quic-go Crash Due to Premature │
+│                            │                │          │        │                   │                │ HANDSHAKE_DONE Frame                                       │
+│                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-59530                 │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/slackhq/nebula  │ CVE-2026-25793 │          │        │ v1.9.7            │ 1.10.3         │ Blocklist Bypass possible via ECDSA Signature Malleability │
+│                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2026-25793                 │
+└────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴────────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
+lun 9 feb 2026, 11:54:47, CET --- ghcr.io/neomediatech/caddy:latest
+
+Report Summary
+
+┌───────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                      Target                       │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├───────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:latest (alpine 3.22.3) │  alpine  │        0        │    -    │         -         │
+├───────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                     │ gobinary │        2        │    -    │         -         │
+└───────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.69/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+usr/bin/caddy (gobinary)
+========================
+Total: 2 (HIGH: 2, CRITICAL: 0)
+
+┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬────────────────┬────────────────────────────────────────────────────────────┐
+│          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version  │                           Title                            │
+├────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/quic-go/quic-go │ CVE-2025-59530 │ HIGH     │ fixed  │ v0.54.0           │ 0.49.1, 0.54.1 │ github.com/quic-go/quic-go: quic-go Crash Due to Premature │
+│                            │                │          │        │                   │                │ HANDSHAKE_DONE Frame                                       │
+│                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-59530                 │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/slackhq/nebula  │ CVE-2026-25793 │          │        │ v1.9.7            │ 1.10.3         │ Blocklist Bypass possible via ECDSA Signature Malleability │
+│                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2026-25793                 │
+└────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴────────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
