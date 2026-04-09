@@ -19,3 +19,5 @@ mer 20 ago 2025, 20:23:00, CEST --- ghcr.io/neomediatech/caddy:2.10 done (image 
 lun 9 feb 2026, 11:54:10, CET --- ghcr.io/neomediatech/caddy:2.10 done (image build needed: true)
 lun 9 feb 2026, 11:54:14, CET --- ghcr.io/neomediatech/caddy:2.10-extra done (image build needed: true)
 lun 9 feb 2026, 11:54:14, CET --- ghcr.io/neomediatech/caddy:latest done (image build needed: true)
+gio 9 apr 2026, 17:46:52, CEST --- ghcr.io/neomediatech/caddy:latest-extra done (image build needed: true)
+gio 9 apr 2026, 17:47:57, CEST --- ghcr.io/neomediatech/caddy:2.10 done (image build needed: true)
