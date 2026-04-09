@@ -1,0 +1,21 @@
+ARG CADDY_VERSION=2.11
+FROM caddy:${CADDY_VERSION}-builder AS builder
+
+RUN xcaddy build \
+    --with github.com/lucaslorentz/caddy-docker-proxy/v2@v2.11.0 \
+    --with github.com/caddyserver/transform-encoder
+
+FROM caddy:${CADDY_VERSION}
+
+ENV SERVICE=caddy \
+    TZ=Europe/Rome
+
+LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
+      org.opencontainers.package.name=caddy \
+      it.neomediatech.app-label=meta
+
+RUN apk add --no-cache tzdata
+
+COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+
+CMD ["caddy", "docker-proxy"]
