@@ -7,7 +7,7 @@ RUN xcaddy build \
     --with github.com/mholt/caddy-l4 \
     --with github.com/abiosoft/caddy-exec
 
-FROM caddy:${CADDY_VERSION}-alpine
+FROM caddy:alpine
 
 ENV SERVICE=caddy \
     TZ=Europe/Rome
