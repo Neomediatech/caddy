@@ -859,3 +859,168 @@ Total: 5 (HIGH: 3, CRITICAL: 2)
 │                                   │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-33186                  │
 └───────────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴───────────────┴─────────────────────────────────────────────────────────────┘
 -------------------------------------------------------
+lun 26 ott 2026, 17:40:40, CET --- ghcr.io/neomediatech/caddy:2.11
+
+Report Summary
+
+┌─────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                     Target                      │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├─────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:2.11 (alpine 3.23.7) │  alpine  │        3        │    -    │         -         │
+├─────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                   │ gobinary │        1        │    -    │         -         │
+└─────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.76/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+ghcr.io/neomediatech/caddy:2.11 (alpine 3.23.7)
+===============================================
+Total: 3 (HIGH: 3, CRITICAL: 0)
+
+┌─────────────┬─────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────┐
+│   Library   │  Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                        Title                         │
+├─────────────┼─────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ brotli-libs │ CVE-2026-111497 │ HIGH     │ fixed  │ 1.2.0-r0          │ 1.2.1-r0      │ brotli: Out-of-Bounds Write in Google Brotli Decoder │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-111497          │
+├─────────────┼─────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ curl        │ CVE-2026-92392  │          │        │ 8.22.0-r0         │ 8.23.0-r0     │ curl: curl: HTTP/2 upload Use-After-Free             │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-92392           │
+├─────────────┤                 │          │        │                   │               │                                                      │
+│ libcurl     │                 │          │        │                   │               │                                                      │
+│             │                 │          │        │                   │               │                                                      │
+└─────────────┴─────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────┘
+
+usr/bin/caddy (gobinary)
+========================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────────┐
+│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                           Title                            │
+├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────────┤
+│ golang.org/x/net │ CVE-2026-78669 │ HIGH     │ fixed  │ v0.59.0           │ 0.60.0        │ net/http: net/http/internal/http2: golang.org/x/net/http2: │
+│                  │                │          │        │                   │               │ net/http: Denial of Service via excessive HTTP/2 SETTINGS  │
+│                  │                │          │        │                   │               │ frames...                                                  │
+│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78669                 │
+└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
+lun 26 ott 2026, 17:40:33, CET --- ghcr.io/neomediatech/caddy:latest-extra
+
+Report Summary
+
+┌─────────────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                         Target                          │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├─────────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:latest-extra (alpine 3.23.7) │  alpine  │        3        │    -    │         -         │
+├─────────────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                           │ gobinary │        1        │    -    │         -         │
+└─────────────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.76/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+ghcr.io/neomediatech/caddy:latest-extra (alpine 3.23.7)
+=======================================================
+Total: 3 (HIGH: 3, CRITICAL: 0)
+
+┌─────────────┬─────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────┐
+│   Library   │  Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                        Title                         │
+├─────────────┼─────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ brotli-libs │ CVE-2026-111497 │ HIGH     │ fixed  │ 1.2.0-r0          │ 1.2.1-r0      │ brotli: Out-of-Bounds Write in Google Brotli Decoder │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-111497          │
+├─────────────┼─────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ curl        │ CVE-2026-92392  │          │        │ 8.22.0-r0         │ 8.23.0-r0     │ curl: curl: HTTP/2 upload Use-After-Free             │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-92392           │
+├─────────────┤                 │          │        │                   │               │                                                      │
+│ libcurl     │                 │          │        │                   │               │                                                      │
+│             │                 │          │        │                   │               │                                                      │
+└─────────────┴─────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────┘
+
+usr/bin/caddy (gobinary)
+========================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────────┐
+│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                           Title                            │
+├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────────┤
+│ golang.org/x/net │ CVE-2026-78669 │ HIGH     │ fixed  │ v0.59.0           │ 0.60.0        │ net/http: net/http/internal/http2: golang.org/x/net/http2: │
+│                  │                │          │        │                   │               │ net/http: Denial of Service via excessive HTTP/2 SETTINGS  │
+│                  │                │          │        │                   │               │ frames...                                                  │
+│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78669                 │
+└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
+lun 26 ott 2026, 17:40:19, CET --- ghcr.io/neomediatech/caddy:latest
+
+Report Summary
+
+┌───────────────────────────────────────────────────┬──────────┬─────────────────┬─────────┬───────────────────┐
+│                      Target                       │   Type   │ Vulnerabilities │ Secrets │ Misconfigurations │
+├───────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/caddy:latest (alpine 3.23.7) │  alpine  │        3        │    -    │         -         │
+├───────────────────────────────────────────────────┼──────────┼─────────────────┼─────────┼───────────────────┤
+│ usr/bin/caddy                                     │ gobinary │        1        │    -    │         -         │
+└───────────────────────────────────────────────────┴──────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/docs/v0.76/guide/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+ghcr.io/neomediatech/caddy:latest (alpine 3.23.7)
+=================================================
+Total: 3 (HIGH: 3, CRITICAL: 0)
+
+┌─────────────┬─────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────┐
+│   Library   │  Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                        Title                         │
+├─────────────┼─────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ brotli-libs │ CVE-2026-111497 │ HIGH     │ fixed  │ 1.2.0-r0          │ 1.2.1-r0      │ brotli: Out-of-Bounds Write in Google Brotli Decoder │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-111497          │
+├─────────────┼─────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────┤
+│ curl        │ CVE-2026-92392  │          │        │ 8.22.0-r0         │ 8.23.0-r0     │ curl: curl: HTTP/2 upload Use-After-Free             │
+│             │                 │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-92392           │
+├─────────────┤                 │          │        │                   │               │                                                      │
+│ libcurl     │                 │          │        │                   │               │                                                      │
+│             │                 │          │        │                   │               │                                                      │
+└─────────────┴─────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────┘
+
+usr/bin/caddy (gobinary)
+========================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────────┐
+│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                           Title                            │
+├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────────┤
+│ golang.org/x/net │ CVE-2026-78669 │ HIGH     │ fixed  │ v0.59.0           │ 0.60.0        │ net/http: net/http/internal/http2: golang.org/x/net/http2: │
+│                  │                │          │        │                   │               │ net/http: Denial of Service via excessive HTTP/2 SETTINGS  │
+│                  │                │          │        │                   │               │ frames...                                                  │
+│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78669                 │
+└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────────┘
+-------------------------------------------------------
